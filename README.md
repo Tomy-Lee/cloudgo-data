@@ -95,7 +95,7 @@ Delete 删除数据实体
 #### 6.9 web 数据服务包装
 #### 6.10 测试 web 服务，简要测试情况如下：
 ![测试情况](/img/测试情况.png)
-![测试情况2](/img/userinfo.png)
+![测试情况2](/img/userinfo .png)
 ![测试情况3](/img/userinfo2.png)
 ### 7.8080端口数据输出测试。
 ![8080测试](/img/8080测试.png)
