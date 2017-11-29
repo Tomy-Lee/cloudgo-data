@@ -39,3 +39,11 @@ func getUserInfoHandler(formatter *render.Render) http.HandlerFunc {
 		formatter.JSON(w, http.StatusOK, ulist)
 	}
 }
+
+func getUserCountHandler(formatter *render.Render) http.HandlerFunc {
+
+	return func(w http.ResponseWriter, req *http.Request) {
+		c := entities.UserInfoService.Count()
+		formatter.JSON(w, http.StatusOK, c)
+	}
+}
